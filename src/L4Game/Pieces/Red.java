@@ -9,6 +9,6 @@ public class Red extends L4Piece{
     }
     @Override
     public String toString(){
-        return "R";
+        return "O";
     }
 }

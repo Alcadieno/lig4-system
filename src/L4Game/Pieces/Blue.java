@@ -4,12 +4,12 @@ import L4Game.L4Piece;
 import L4Game.color;
 
 public class Blue extends L4Piece{
-    public Blue (Board board , L4Game.color color){
+    public Blue (Board board ,color color){
         super(board,color);
 
     }
     @Override
     public String toString(){
-        return "B";
+        return "O";
     }
 }
